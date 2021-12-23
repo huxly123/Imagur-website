@@ -85,14 +85,14 @@ color: white;
 
 .flex_div>div:nth-child(odd){
 height: 400px;
-width: 18%;
+width: 25%;
 gap: 10px;
 border: 1px solid black;
 }
 
 .flex_div>div:nth-child(even){
     height: 300px;
-    width: 20%;
+    width: 25%;
     gap: 10px;
 border: 1px solid orange;
 }
@@ -100,4 +100,40 @@ border: 1px solid orange;
 .flex_div>div>img{
     width: 100%;
     height: 70%;
+    object-fit: contain;
+}
+
+.fulllower{
+        background-color: #2e3035;
+}
+.text{
+    color: white;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.lower_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.liles_div{
+    display: flex;
+    justify-content: center;
+}
+
+.comment_div{
+    display: flex;
+}
+
+.views_div{
+   
+    display: flex;
+    
+}
+.grid_div svg{
+margin-top: 15px;
+cursor: pointer;
+}
+
+.grid_div svg:hover{
+    color: orange;
 }
