@@ -3,7 +3,7 @@
     border: 1px solid black;
     justify-content: space-between;
     background-color: #181444;
-    height:200px;
+    height:100px;
 }
 
 .uScaleTransition{
@@ -87,14 +87,14 @@ color: white;
 height: 400px;
 width: 25%;
 gap: 10px;
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 
 .flex_div>div:nth-child(even){
     height: 300px;
     width: 25%;
     gap: 10px;
-border: 1px solid orange;
+/* border: 1px solid orange; */
 }
 
 .flex_div>div>img{
